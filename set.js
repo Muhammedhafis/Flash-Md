@@ -30,7 +30,7 @@ CHATBOT: process.env.CHAT_BOT || "on",
     ADM : process.env.ANTI_DELETE_MESSAGE || 'off',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9",
+        ? "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://koyeb-adm:plW5ivDus0GQ@ep-wild-fog-a19c0p4i.ap-southeast-1.pg.koyeb.app/koyebdb",
     /* new Sequelize({
      dialect: 'sqlite',
      storage: DATABASE_URL,
